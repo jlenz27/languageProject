@@ -13,33 +13,25 @@ window.onload = function () {
         event.preventDefault();
         hideResults();
         const age = parseInt(document.querySelector("input#age").value);
-        const height = parseInt(document.querySelector("input#height").value);
-        const radioSelection = document.querySelector("input[name='fav_color']:checked").value
+        const radioSelection = document.querySelector("input[name='favColor']:checked").value
 
         
-        if(radioSelection === "yellow"){
-            document.getElementById("python").removeAttribute("class");        }
+        if (age >= 70){
+            document.getElementById("sorry").removeAttribute("class");         
         
-        
-        
-        // if (age && height) {
+        } else if(radioSelection === "red"){
+            document.getElementById("java").removeAttribute("class");        
 
-        //     if (age >= 50 && height >= 150) {
-        //         document.getElementById("java").removeAttribute("class");
+        }else if (radioSelection === "green"){
+            document.getElementById("html").removeAttribute("class");        
 
-        //     } else if (age >= 35 && height >= 95) {
-        //         document.getElementById("html").removeAttribute("class");
+        }else if (radioSelection === "yellow"){
+            document.getElementById("python").removeAttribute("class");      
 
-        //     } else if (age >= 20 && height >= 50) {
-        //         document.getElementById("python").removeAttribute("class");
+        }
+    
 
-        //     } else {
-        //         document.getElementById("sorry").removeAttribute("class");
-        //     }
-        // } else {
-        //     document.getElementById("error-message").removeAttribute("class");
-        // }
-
-
-    };
+        document.getElementById("userInfo").reset();
 };
+};
+        
