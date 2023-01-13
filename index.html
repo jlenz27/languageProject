@@ -8,29 +8,42 @@
 </head>
 
 <body>
+    <div class="waviy">
+        <span style="--i:1">W</span>
+        <span style="--i:2">E</span>
+        <span style="--i:3">L</span>
+        <span style="--i:4">C</span>
+        <span style="--i:5">O</span>
+        <span style="--i:6">M</span>
+        <span style="--i:7">E</span>
+        <span style="--i:8">!</span><br><br>
+       </div>
+ 
     <div class="header">
-        <h1>Welcome</h1>
-        <p>This quiz will help determine which programming language is best for you</p>
-        <p>Please fill out the information below.</p>
-
+        <p>This quiz will help determine which programming language is best for you</p><br>
+        <p>Please fill out the information below.</p><br>
     </div>
 
     <div>
         <form id="userInfo">
-            <p id="error-message" class="hidden">Please enter an age and height in whole numbers.</p>
+            <p id="error-message" class="hidden">Please enter an age and favorite number in whole numbers.</p>
+            
             <label for="age">Age</label>
             <input id="age" type="text" name="age">
-            <label for="height">Favorite Number</label>
-            <input id="height" type="text" name="height">
+            <label for="favNum">Favorite Number</label>
+            <input id="faNum" type="text" name="favNum">
+            <label for="favState">Favorite State</label>
+            <input id="favState" type="text" name="favState">
             <label for="animalInput">An Animal</label>
             <input id="animalInput" type="text" name="animalInput"><br><br>
             <p>Please pick your Favoite color:</p>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">Red</label><br>
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="css">Green</label><br>
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-            <label for="javascript">Yellow</label>
+            <input type="radio" id="red" name="favColor" value="red" checked>
+            <label for="red">Red</label><br>
+            <input type="radio" id="green" name="favColor" value="green">
+            <label for="green">Green</label><br>
+            <input type="radio" id="yellow" name="favColor" value="yellow">
+            <label for="yellow">Yellow</label>
+            
             <br><br>
             <button type="submit">Submit</button>
         </form>
@@ -38,7 +51,7 @@
     </div>
 
     <div id="java" class="hidden">
-        <h1>Java seems like the perfect language for you</h1>
+        <h1>Java seems like the perfect language </h1>
         <p>Click the links below to find out more information on the language:</p>
     </div>
     <div id="html" class="hidden">
@@ -51,7 +64,7 @@
     </div>
     <div id="sorry" class="hidden">
         <h1>Sorry</h1>
-        <p>you will never find love</p>
+        <p>You are too old to have a favorite language</p>
     </div>
 
 
