@@ -69,15 +69,20 @@ label .label-text {
         transform: translateY(-74px);
       }
 
-      .radio-label {
-        display: inline-block;
-         vertical-align: top;
-         margin-right: 3%;
-     }
-     .radio-input {
-        display: inline-block;
-         vertical-align: top;
-     }
+      .subBut {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+
+      }
+      .radiobtn{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+
+      }
       button {
         background: transparent;
         color: #F0F0F0;
