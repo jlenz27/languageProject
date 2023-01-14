@@ -21,6 +21,8 @@ _https://github.com/jlenz27/languageProject.git/_
 ## Setup/Installation Requirements
 * _Download Repository_
 * _Run the index.html file with an Web browser of your choosing_
+* _Fill out form and it should return a language to study_
+
 
 
 ## Known Bugs
