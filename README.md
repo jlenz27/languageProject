@@ -19,7 +19,7 @@ _This is a webpage that creates a form that takes in information from the user a
 _https://github.com/jlenz27/languageProject.git/_
 
 ## Setup/Installation Requirements
-* _Download Repository
+* _Download Repository_
 * _Run the index.html file with an Web browser of your choosing_
 
 
